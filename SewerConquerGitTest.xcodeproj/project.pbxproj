@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1A91F02170D536004A13F5 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1A91EF2170D536004A13F5 /* GameKit.framework */; };
+		7F2C3BF92176069A002030A5 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C3BF82176069A002030A5 /* TermsViewController.swift */; };
+		7F2ED986209B98D700966313 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7F2ED985209B98D700966313 /* player.atlas */; };
+		7F2ED98A209DB10D00966313 /* toiletFlush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F2ED989209DB10D00966313 /* toiletFlush.mp3 */; };
+		7F73118420768E3B00748E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73118320768E3B00748E76 /* AppDelegate.swift */; };
+		7F73118620768E3B00748E76 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F73118520768E3B00748E76 /* GameScene.sks */; };
+		7F73118820768E3B00748E76 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F73118720768E3B00748E76 /* Actions.sks */; };
+		7F73118C20768E3B00748E76 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73118B20768E3B00748E76 /* GameViewController.swift */; };
+		7F73118F20768E3B00748E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F73118D20768E3B00748E76 /* Main.storyboard */; };
+		7F73119120768E3F00748E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F73119020768E3F00748E76 /* Assets.xcassets */; };
+		7F73119420768E3F00748E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F73119220768E3F00748E76 /* LaunchScreen.storyboard */; };
+		7F7311A020768EBC00748E76 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73119F20768EBC00748E76 /* GameElements.swift */; };
+		7F7311A52077902B00748E76 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73118920768E3B00748E76 /* GameScene.swift */; };
+		7F7311B9207BEB5D00748E76 /* backgroundSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F7311B8207BEB5D00748E76 /* backgroundSound.mp3 */; };
+		7F7311BB207D27ED00748E76 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F7311BA207D27ED00748E76 /* CoinSound.mp3 */; };
+		7F7311C62081337A00748E76 /* Decay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F7311C52081337A00748E76 /* Decay.ttf */; };
+		7F7ABCFD209A23E8000BECB8 /* playerThree.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7F7ABCFC209A23E8000BECB8 /* playerThree.atlas */; };
+		7F909DCE20BC5117000F0C3A /* playerTwo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7F909DCD20BC5117000F0C3A /* playerTwo.atlas */; };
+		7FB90C98208662C6002B40EC /* Digits.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FB90C97208662C5002B40EC /* Digits.ttf */; };
+		7FB90CB120986581002B40EC /* Dwerneck.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FB90CB020986581002B40EC /* Dwerneck.ttf */; };
+		7FDBF87F217474CF001FFE69 /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBF87E217474CF001FFE69 /* PolicyViewController.swift */; };
+		7FE221F02160E18F009F45E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE221EF2160E18F009F45E2 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F1A91EF2170D536004A13F5 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		7F2C3BF82176069A002030A5 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		7F2ED985209B98D700966313 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = player.atlas; path = ProjectFiles/player.atlas; sourceTree = SOURCE_ROOT; };
+		7F2ED989209DB10D00966313 /* toiletFlush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = toiletFlush.mp3; path = ProjectFiles/toiletFlush.mp3; sourceTree = SOURCE_ROOT; };
+		7F73118020768E3B00748E76 /* SewerConquer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SewerConquer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F73118320768E3B00748E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F73118520768E3B00748E76 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7F73118720768E3B00748E76 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7F73118920768E3B00748E76 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7F73118B20768E3B00748E76 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7F73118E20768E3B00748E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F73119020768E3F00748E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F73119320768E3F00748E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F73119520768E3F00748E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F73119F20768EBC00748E76 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		7F7311B8207BEB5D00748E76 /* backgroundSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backgroundSound.mp3; path = ProjectFiles/backgroundSound.mp3; sourceTree = SOURCE_ROOT; };
+		7F7311BA207D27ED00748E76 /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = CoinSound.mp3; path = ProjectFiles/CoinSound.mp3; sourceTree = SOURCE_ROOT; };
+		7F7311C52081337A00748E76 /* Decay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Decay.ttf; path = ProjectFiles/Decay.ttf; sourceTree = SOURCE_ROOT; };
+		7F7ABCFC209A23E8000BECB8 /* playerThree.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = playerThree.atlas; path = ProjectFiles/playerThree.atlas; sourceTree = SOURCE_ROOT; };
+		7F909DCD20BC5117000F0C3A /* playerTwo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = playerTwo.atlas; path = ProjectFiles/playerTwo.atlas; sourceTree = SOURCE_ROOT; };
+		7FB90C97208662C5002B40EC /* Digits.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Digits.ttf; path = ProjectFiles/Digits.ttf; sourceTree = SOURCE_ROOT; };
+		7FB90CB020986581002B40EC /* Dwerneck.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dwerneck.ttf; path = ProjectFiles/Dwerneck.ttf; sourceTree = SOURCE_ROOT; };
+		7FDBF87E217474CF001FFE69 /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		7FE221EF2160E18F009F45E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F73117D20768E3B00748E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1A91F02170D536004A13F5 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F73117720768E3B00748E76 = {
+			isa = PBXGroup;
+			children = (
+				7F73118220768E3B00748E76 /* SewerConquer */,
+				7F73118120768E3B00748E76 /* Products */,
+				7FD8880F2168B76500AF7BE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F73118120768E3B00748E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F73118020768E3B00748E76 /* SewerConquer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F73118220768E3B00748E76 /* SewerConquer */ = {
+			isa = PBXGroup;
+			children = (
+				7F73118520768E3B00748E76 /* GameScene.sks */,
+				7F73118720768E3B00748E76 /* Actions.sks */,
+				7F73118320768E3B00748E76 /* AppDelegate.swift */,
+				7FE221EF2160E18F009F45E2 /* ViewController.swift */,
+				7F73118B20768E3B00748E76 /* GameViewController.swift */,
+				7F73118920768E3B00748E76 /* GameScene.swift */,
+				7F73119F20768EBC00748E76 /* GameElements.swift */,
+				7FDBF87E217474CF001FFE69 /* PolicyViewController.swift */,
+				7F2C3BF82176069A002030A5 /* TermsViewController.swift */,
+				7F73118D20768E3B00748E76 /* Main.storyboard */,
+				7F73119220768E3F00748E76 /* LaunchScreen.storyboard */,
+				7F73119020768E3F00748E76 /* Assets.xcassets */,
+				7F2ED989209DB10D00966313 /* toiletFlush.mp3 */,
+				7F7311BA207D27ED00748E76 /* CoinSound.mp3 */,
+				7F7311B8207BEB5D00748E76 /* backgroundSound.mp3 */,
+				7FB90CB020986581002B40EC /* Dwerneck.ttf */,
+				7F7311C52081337A00748E76 /* Decay.ttf */,
+				7FB90C97208662C5002B40EC /* Digits.ttf */,
+				7F73119520768E3F00748E76 /* Info.plist */,
+				7F909DCD20BC5117000F0C3A /* playerTwo.atlas */,
+				7F2ED985209B98D700966313 /* player.atlas */,
+				7F7ABCFC209A23E8000BECB8 /* playerThree.atlas */,
+			);
+			path = SewerConquer;
+			sourceTree = "<group>";
+		};
+		7FD8880F2168B76500AF7BE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F1A91EF2170D536004A13F5 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F73117F20768E3B00748E76 /* SewerConquer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F73119820768E3F00748E76 /* Build configuration list for PBXNativeTarget "SewerConquer" */;
+			buildPhases = (
+				7F73117C20768E3B00748E76 /* Sources */,
+				7F73117D20768E3B00748E76 /* Frameworks */,
+				7F73117E20768E3B00748E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SewerConquer;
+			productName = SkyConquer;
+			productReference = 7F73118020768E3B00748E76 /* SewerConquer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F73117820768E3B00748E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MarkoSplajt;
+				TargetAttributes = {
+					7F73117F20768E3B00748E76 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7F73117B20768E3B00748E76 /* Build configuration list for PBXProject "SewerConquerGitTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F73117720768E3B00748E76;
+			productRefGroup = 7F73118120768E3B00748E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F73117F20768E3B00748E76 /* SewerConquer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F73117E20768E3B00748E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2ED98A209DB10D00966313 /* toiletFlush.mp3 in Resources */,
+				7F7311B9207BEB5D00748E76 /* backgroundSound.mp3 in Resources */,
+				7F7311C62081337A00748E76 /* Decay.ttf in Resources */,
+				7FB90CB120986581002B40EC /* Dwerneck.ttf in Resources */,
+				7F73118F20768E3B00748E76 /* Main.storyboard in Resources */,
+				7F909DCE20BC5117000F0C3A /* playerTwo.atlas in Resources */,
+				7F73118620768E3B00748E76 /* GameScene.sks in Resources */,
+				7F73119120768E3F00748E76 /* Assets.xcassets in Resources */,
+				7F7ABCFD209A23E8000BECB8 /* playerThree.atlas in Resources */,
+				7F7311BB207D27ED00748E76 /* CoinSound.mp3 in Resources */,
+				7F73119420768E3F00748E76 /* LaunchScreen.storyboard in Resources */,
+				7F2ED986209B98D700966313 /* player.atlas in Resources */,
+				7FB90C98208662C6002B40EC /* Digits.ttf in Resources */,
+				7F73118820768E3B00748E76 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F73117C20768E3B00748E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE221F02160E18F009F45E2 /* ViewController.swift in Sources */,
+				7F7311A020768EBC00748E76 /* GameElements.swift in Sources */,
+				7F73118C20768E3B00748E76 /* GameViewController.swift in Sources */,
+				7F7311A52077902B00748E76 /* GameScene.swift in Sources */,
+				7F73118420768E3B00748E76 /* AppDelegate.swift in Sources */,
+				7F2C3BF92176069A002030A5 /* TermsViewController.swift in Sources */,
+				7FDBF87F217474CF001FFE69 /* PolicyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F73118D20768E3B00748E76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F73118E20768E3B00748E76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F73119220768E3F00748E76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F73119320768E3F00748E76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F73119620768E3F00748E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F73119720768E3F00748E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F73119920768E3F00748E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R767QP4N2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SewerConquer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarkoSplajt.SewerConquer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F73119A20768E3F00748E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R767QP4N2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SewerConquer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarkoSplajt.SewerConquer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F73117B20768E3B00748E76 /* Build configuration list for PBXProject "SewerConquerGitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F73119620768E3F00748E76 /* Debug */,
+				7F73119720768E3F00748E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F73119820768E3F00748E76 /* Build configuration list for PBXNativeTarget "SewerConquer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F73119920768E3F00748E76 /* Debug */,
+				7F73119A20768E3F00748E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F73117820768E3B00748E76 /* Project object */;
+}
