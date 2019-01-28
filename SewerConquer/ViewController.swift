@@ -8,7 +8,6 @@
 
 import UIKit
 import GameKit
-import GoogleMobileAds
 
 class ViewController: UIViewController, GKGameCenterControllerDelegate, UITextFieldDelegate
 {

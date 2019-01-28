@@ -10,17 +10,17 @@ import UIKit
 import SpriteKit
 import GameplayKit
 import AVFoundation
-import GoogleMobileAds
+//import GoogleMobileAds
 import CoreData
 
-var rewardBasedAd: GADRewardBasedVideoAd!
+//var rewardBasedAd: GADRewardBasedVideoAd!
 
-class GameViewController: UIViewController, GADRewardBasedVideoAdDelegate
+class GameViewController: UIViewController
 {
     var backingAudio = AVAudioPlayer()
     @IBOutlet var exitButton: UIButton!
     
-    @IBAction func showAd(_ sender: UIButton) {
+    /*@IBAction func showAd(_ sender: UIButton) {
         rewardBasedAd.present(fromRootViewController: self)
     }
     
@@ -68,7 +68,7 @@ class GameViewController: UIViewController, GADRewardBasedVideoAdDelegate
     func rewardBasedVideoAd(_ rewardBasedVideoAd: GADRewardBasedVideoAd, didFailToLoadWithError error: Error)
     {
         
-    }
+    }*/
     
     @IBAction func exitButtonPressed(_ sender: UIButton)
     {
@@ -84,16 +84,16 @@ class GameViewController: UIViewController, GADRewardBasedVideoAdDelegate
         
         //timesDeadLoadOnStart()
         
-        rewardBasedAd = GADRewardBasedVideoAd.sharedInstance()
+        /*rewardBasedAd = GADRewardBasedVideoAd.sharedInstance()
         rewardBasedAd.delegate = self
-        rewardBasedAd.load(GADRequest(), withAdUnitID: "ca-app-pub-7711507841405386/5078896743")
+        rewardBasedAd.load(GADRequest(), withAdUnitID: "ca-app-pub-7711507841405386/5078896743")*/
         
         // test: ca-app-pub-3940256099942544/1712485313
         
         // real:  ca-app-pub-7711507841405386/5078896743
         
-        let requestAd: GADRequest = GADRequest()
-        requestAd.testDevices = [kGADSimulatorID]
+        /*let requestAd: GADRequest = GADRequest()
+        requestAd.testDevices = [kGADSimulatorID]*/
         
         /*bannerView.adUnitID = "ca-app-pub-3940256099942544/6300978111"
         bannerView.rootViewController = self

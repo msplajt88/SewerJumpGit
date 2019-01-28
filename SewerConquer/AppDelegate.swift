@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-import GoogleMobileAds
+//import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     {
         //self.splashScreen()
         
-        GADMobileAds.configure(withApplicationID: "ca-app-pub-7711507841405386/5078896743")
+        //GADMobileAds.configure(withApplicationID: "ca-app-pub-7711507841405386/5078896743")
         
         // test: ca-app-pub-3940256099942544/1712485313
         

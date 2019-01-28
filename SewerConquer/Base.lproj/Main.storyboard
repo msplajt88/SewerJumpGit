@@ -400,25 +400,12 @@
                                     <segue destination="gy8-3u-86l" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="YUr-bb-DMI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYd-fU-M7E">
-                                <rect key="frame" x="344" y="666" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="cMQ-G2-PhY"/>
-                                    <constraint firstAttribute="height" constant="50" id="lBr-SB-wgO"/>
-                                </constraints>
-                                <state key="normal" image="reward"/>
-                                <connections>
-                                    <action selector="showAd:" destination="BV1-FR-VrT" eventType="touchUpInside" id="GcE-Dz-B8V"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="vKx-qg-Ohs" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="20" id="NFD-oN-lB9"/>
-                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="HYd-fU-M7E" secondAttribute="trailing" constant="20" id="dRN-B9-OOX"/>
                             <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="vKx-qg-Ohs" secondAttribute="bottom" constant="20" id="rNB-VQ-Aww"/>
-                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="HYd-fU-M7E" secondAttribute="bottom" constant="20" id="rjv-jW-To5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
                     </view>
@@ -440,10 +427,9 @@
         <image name="playButton" width="111" height="40"/>
         <image name="policy" width="761" height="719"/>
         <image name="policyBackground" width="300" height="300"/>
-        <image name="reward" width="114" height="124"/>
         <image name="sewerHole" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sd9-Lm-W1g"/>
+        <segue reference="YUr-bb-DMI"/>
     </inferredMetricsTieBreakers>
 </document>
